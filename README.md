@@ -36,3 +36,18 @@ Repositório destinado a expor as atividades feitas durante o meu aprendizado so
     //          Divisão inteira    9 // 2     4
     %           Módulo (resto)     10 % 3     1
     **          Exponenciação      2 ** 3     8
+
+### Precedência dos Operadores Aritméticos
+    A ordem de precedência dos operadores aritméticos em Python é a seguinte:
+        1. Parênteses: ()
+            - Operações dentro de parênteses têm a maior precedência.
+        2. Exponenciação: **
+            - Calculado da direita para a esquerda.
+        3. Multiplicação, Divisão, Divisão Inteira e Módulo: *, /, //, %
+            - Calculados da esquerda para a direita.
+        4. Adição e Subtração: +, -
+            - Calculados da esquerda para a direita.
+
+    Exemplo:
+        resultado = 10 + 3 * 2 ** 2  # Resultado: 22
+        resultado = (10 + 3) * 2 ** 2  # Resultado: 52
