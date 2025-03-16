@@ -51,3 +51,39 @@ Repositório destinado a expor as atividades feitas durante o meu aprendizado so
     Exemplo:
         resultado = 10 + 3 * 2 ** 2  # Resultado: 22
         resultado = (10 + 3) * 2 ** 2  # Resultado: 52
+
+## 📌 Módulos em Python
+
+### O que são módulos
+    - Módulos são arquivos Python com funções, classes e variáveis que podem ser reutilizados em outros programas.
+    - Permitem organizar o código e evitar repetição.
+
+### Como importar módulos
+    Usando `import` para carregar o módulo inteiro:
+        import math
+        raiz = math.sqrt(25)
+
+    Usando `from/import` para trazer partes específicas:
+        from math import sqrt
+        raiz = sqrt(25)
+
+### Módulos built-in
+    São módulos que já vêm instalados com Python. Exemplos:
+        math → Funções matemáticas (sqrt, pow, sin).
+        random → Geração de números aleatórios.
+        datetime → Manipulação de datas e horas.
+        os → Interação com o sistema operacional.
+
+### Módulos externos (PyPI)
+    Módulos adicionais podem ser instalados via **PyPI** usando o `pip`:
+        Instalação (no terminal):
+            pip install nome_do_modulo
+
+        Exemplos populares:
+            numpy → Cálculos numéricos.
+            pandas → Análise de dados.
+
+### Exemplo prático
+    Importando e usando o módulo `random`:
+        import random
+        numero = random.randint(1, 10)
