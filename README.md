@@ -87,3 +87,50 @@ Repositório destinado a expor as atividades feitas durante o meu aprendizado so
     Importando e usando o módulo `random`:
         import random
         numero = random.randint(1, 10)
+
+## 📌 Manipulação de Strings em Python
+
+### Fatiamento (Slicing)
+
+    texto = "Aprendendo Python"
+
+    print(texto[0])         # "A" (primeiro caractere)
+    print(texto[3:9])       # "endend" (do índice 3 ao 8)
+    print(texto[::2])       # "ApedoPto" (pula de 2 em 2)
+    print(texto[::-1])      # "nohtyP odnerpA" (inverte a string)
+
+### Análise
+
+    texto = "Curso de Python"
+
+    print(len(texto))           # 14 (comprimento da string)
+    print(texto.count("o"))     # 3 (quantas vezes "o" aparece)
+    print(texto.find("de"))     # 5 (índice onde começa "de")
+    print("Python in texto")    # True (verifica se existe na string)
+
+### Transformações
+
+    texto = "  python é fácil  "
+
+    print(texto.upper())                        # "  PYTHON É FÁCIL  " (converte para maiúsculas)
+    print(texto.lower())                        # "  python é fácil  " (converte para minúsculas)
+    print(texto.capitalize())                   # "  python é fácil  " → "  Python é fácil  " (primeira letra maiúscula)
+    print("python".title())                     # "  Python É Fácil  " (primeira letra de cada palavra maiúscula)
+    print(texto.strip())                        # "python é fácil" (remove espaços das bordas)
+    print(texto.replace("fácil", "poderoso"))   # "  python é poderoso  " (troca uma palavra por outra)
+
+### Junção
+
+    lista = ["Python", "é", "incrível"]
+    print("-".join(lista))  # "Python-é-incrível"
+
+### Principais Métodos
+
+| Método          | Ação                                | Exemplo                          |
+|-----------------|-------------------------------------|----------------------------------|
+| `len()`         | Retorna o comprimento da string     | `len("ola")` → `3`               |
+| `count("x")`    | Conta ocorrências de "x"            | `"ola".count("o")` → `1`         |
+| `find("x")`     | Retorna o índice de "x"             | `"ola".find("l")` → `1`          |
+| `replace(a, b)` | Substitui "a" por "b"               | `"hi".replace("h", "o")` → `"oi"`|
+| `strip()`       | Remove espaços das bordas           | `" texto ".strip()` → `"texto"`  |
+| `join()`        | Junta elementos de uma lista        | `"-".join(["a", "b"])` → `"a-b"` |
