@@ -204,6 +204,7 @@ Define ações para dois cenários (verdadeiro ou falso):
 
 ### Aninhando Condições
 Você pode colocar um if dentro de outro:
+
     numero = 10
     if numero > 0:
         print("Positivo")
