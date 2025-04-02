@@ -134,3 +134,81 @@ Repositório destinado a expor as atividades feitas durante o meu aprendizado so
 | `replace(a, b)` | Substitui "a" por "b"               | `"hi".replace("h", "o")` → `"oi"`|
 | `strip()`       | Remove espaços das bordas           | `" texto ".strip()` → `"texto"`  |
 | `join()`        | Junta elementos de uma lista        | `"-".join(["a", "b"])` → `"a-b"` |
+
+## 📌 Condições em Python (Parte 1)
+
+    Estruturas condicionais permitem que seu programa tome decisões!
+
+### Estrutura Básica
+
+#### Condicional Simples (if)
+    Executa um bloco de código apenas se a condição for verdadeira:
+
+        idade = 18
+        if idade >= 18:
+            print("Você pode votar!")  # Só roda se idade >= 18
+
+#### Condicional Composta (if/else)
+    Define ações para dois cenários (verdadeiro ou falso):
+
+        temperatura = 25
+        if temperatura > 30:
+            print("Dia quente! 🌞")
+        else:
+            print("Clima ameno! 😊")  # Roda se temperatura <= 30
+
+### Operadores de Comparação
+
+| Operador	| Significado	  | Exemplo	| Resultado (True) |
+|-----------|-----------------|---------|------------------|
+|  ==	    | Igual	          | 5 == 5	| ✅               |
+|  !=	    | Diferente	      | 3 != 2	| ✅               |
+|  >	    | Maior que	      | 10 > 5	| ✅               |
+|  <	    | Menor que	      | 5 < 10	| ✅               |
+|  >=	    | Maior ou igual  | 7 >= 7	| ✅               |
+|  <=	    | Menor ou igual  | 4 <= 5	| ✅               |
+
+### Operadores Lógicos
+
+| Operador	| Significado	        | Exemplo	          | Resultado (True) |
+|-----------|-----------------------|---------------------|------------------|
+| and	    | E (ambas condições)	|(5 > 3) and (2 == 2) |	✅               |
+| or	    | Ou (pelo menos uma)	|(5 < 3) or (2 == 2)  |	✅               |
+| not	    | Não (inverte o valor)	|not (5 < 3)	      | ✅               | 
+
+### Exemplos Práticos
+    1. Verificar se um número é par ou ímpar
+        numero = int(input("Digite um número: "))
+        if numero % 2 == 0:
+            print("É par!")
+        else:
+            print("É ímpar!")
+
+    2. Sistema de login básico
+        senha_correta = "python123"
+        senha = input("Digite sua senha: ")
+
+        if senha == senha_correta:
+            print("Acesso permitido!")
+        else:
+            print("Senha incorreta!")
+
+    3. Verificar múltiplas condições
+        idade = 20
+        tem_ingresso = True
+
+        if idade >= 18 and tem_ingresso:
+            print("Pode entrar no evento!")
+        else:
+            print("Acesso negado!")
+
+### Aninhando Condições
+    Você pode colocar um if dentro de outro:
+
+        numero = 10
+        if numero > 0:
+            print("Positivo")
+            if numero % 2 == 0:
+                print("e par!")
+        else:
+            print("Negativo ou zero")
