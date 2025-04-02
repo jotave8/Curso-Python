@@ -137,25 +137,25 @@ Repositório destinado a expor as atividades feitas durante o meu aprendizado so
 
 ## 📌 Condições em Python (Parte 1)
 
-    Estruturas condicionais permitem que seu programa tome decisões!
+Estruturas condicionais permitem que seu programa tome decisões!
 
 ### Estrutura Básica
 
 #### Condicional Simples (if)
-    Executa um bloco de código apenas se a condição for verdadeira:
+Executa um bloco de código apenas se a condição for verdadeira:
 
-        idade = 18
-        if idade >= 18:
-            print("Você pode votar!")  # Só roda se idade >= 18
+    idade = 18
+    if idade >= 18:
+        print("Você pode votar!")  # Só roda se idade >= 18
 
 #### Condicional Composta (if/else)
-    Define ações para dois cenários (verdadeiro ou falso):
+Define ações para dois cenários (verdadeiro ou falso):
 
-        temperatura = 25
-        if temperatura > 30:
-            print("Dia quente! 🌞")
-        else:
-            print("Clima ameno! 😊")  # Roda se temperatura <= 30
+    temperatura = 25
+    if temperatura > 30:
+        print("Dia quente! 🌞")
+    else:
+        print("Clima ameno! 😊")  # Roda se temperatura <= 30
 
 ### Operadores de Comparação
 
@@ -177,38 +177,37 @@ Repositório destinado a expor as atividades feitas durante o meu aprendizado so
 | not	    | Não (inverte o valor)	|not (5 < 3)	      | ✅               | 
 
 ### Exemplos Práticos
-    1. Verificar se um número é par ou ímpar
-        numero = int(input("Digite um número: "))
-        if numero % 2 == 0:
-            print("É par!")
-        else:
-            print("É ímpar!")
+1. Verificar se um número é par ou ímpar
+    numero = int(input("Digite um número: "))
+    if numero % 2 == 0:
+        print("É par!")
+    else:
+        print("É ímpar!")
 
-    2. Sistema de login básico
-        senha_correta = "python123"
-        senha = input("Digite sua senha: ")
+2. Sistema de login básico
+    senha_correta = "python123"
+    senha = input("Digite sua senha: ")
 
-        if senha == senha_correta:
-            print("Acesso permitido!")
-        else:
-            print("Senha incorreta!")
+    if senha == senha_correta:
+        print("Acesso permitido!")
+    else:
+        print("Senha incorreta!")
 
-    3. Verificar múltiplas condições
-        idade = 20
-        tem_ingresso = True
+3. Verificar múltiplas condições
+    idade = 20
+    tem_ingresso = True
 
-        if idade >= 18 and tem_ingresso:
-            print("Pode entrar no evento!")
-        else:
-            print("Acesso negado!")
+    if idade >= 18 and tem_ingresso:
+        print("Pode entrar no evento!")
+    else:
+        print("Acesso negado!")
 
 ### Aninhando Condições
-    Você pode colocar um if dentro de outro:
-
-        numero = 10
-        if numero > 0:
-            print("Positivo")
-            if numero % 2 == 0:
-                print("e par!")
-        else:
-            print("Negativo ou zero")
+Você pode colocar um if dentro de outro:
+    numero = 10
+    if numero > 0:
+        print("Positivo")
+        if numero % 2 == 0:
+            print("e par!")
+    else:
+        print("Negativo ou zero")
