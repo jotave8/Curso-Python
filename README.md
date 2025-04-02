@@ -177,30 +177,30 @@ Define ações para dois cenários (verdadeiro ou falso):
 | not	    | Não (inverte o valor)	|not (5 < 3)	      | ✅               | 
 
 ### Exemplos Práticos
-1. Verificar se um número é par ou ímpar
-    numero = int(input("Digite um número: "))
-    if numero % 2 == 0:
-        print("É par!")
-    else:
-        print("É ímpar!")
+    1. Verificar se um número é par ou ímpar
+        numero = int(input("Digite um número: "))
+        if numero % 2 == 0:
+            print("É par!")
+        else:
+            print("É ímpar!")
 
-2. Sistema de login básico
-    senha_correta = "python123"
-    senha = input("Digite sua senha: ")
+    2. Sistema de login básico
+        senha_correta = "python123"
+        senha = input("Digite sua senha: ")
 
-    if senha == senha_correta:
-        print("Acesso permitido!")
-    else:
-        print("Senha incorreta!")
+        if senha == senha_correta:
+            print("Acesso permitido!")
+        else:
+            print("Senha incorreta!")
 
-3. Verificar múltiplas condições
-    idade = 20
-    tem_ingresso = True
+    3. Verificar múltiplas condições
+        idade = 20
+        tem_ingresso = True
 
-    if idade >= 18 and tem_ingresso:
-        print("Pode entrar no evento!")
-    else:
-        print("Acesso negado!")
+        if idade >= 18 and tem_ingresso:
+            print("Pode entrar no evento!")
+        else:
+            print("Acesso negado!")
 
 ### Aninhando Condições
 Você pode colocar um if dentro de outro:
