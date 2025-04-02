@@ -5,8 +5,7 @@
 - Quantas letras tem o primeiro nome '''
 
 nome = str(input('Informe seu nome completo: '))
-print(nome.upper())
-print(nome.lower())
-print(len(nome.replace(" ","")))
-espaco = nome.find(" ")
-print(nome[0:espaco])
+print('Seu nome em maiusculas é {}'.format(nome.upper()))
+print('Seu nome em minusculas é {}'.format(nome.lower()))
+print('Seu nome tem {} letra (sem contar os espaços)'.format(len(nome.replace(" ",""))))
+print('Seu primeiro nome tem {} letras'.format(nome.find(" ")))
