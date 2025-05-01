@@ -1,6 +1,6 @@
-#Crie um script Python que leia dois números e tente mostrar a soma entre eles.
+#Create a Python script that reads two numbers and tries to display the sum between them.
 
-num1 = int (input('Informe o primeiro número: '))
-num2 = int (input('Informe o segundo número: '))
-soma = num1 + num2
-print('A soma entre {} e {} é {}'.format(num1, num2, soma))
+num1 = int (input('Enter the first number: '))
+num2 = int (input('Enter the second number: '))
+result = num1 + num2
+print('The sum between {} and {} is {}'.format(num1, num2, result))

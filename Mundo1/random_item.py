@@ -1,12 +1,12 @@
-'''Um professor quer sortear um dos quatro alunos para apagar o quadra. Faça um programa que ajude ele lendo o nome
-deles e escrevendo o nome do escolhido'''
+'''A teacher wants to randomly select one of the four students to erase the court. 
+Write a program that helps him by reading their names and writing the name of the chosen one'''
 
-from random import choice
+from random choice import
 
-aluno1 = str(input('Informe o nome do primeiro aluno: '))
-aluno2 = str(input('Informe o nome do segundo aluno: '))
-aluno3 = str(input('Informe o nome do terceiro aluno: '))
-aluno4 = str(input('Informe o nome do quarto aluno: '))
-alunos = [aluno1,aluno2,aluno3,aluno4]
-escolhido = choice(alunos)
-print('O aluno escolhido foi {}'.format(escolhido))
+student1 = str(input('Enter the name of the first student: '))
+student2 = str(input('Enter the name of the second student: '))
+student3 = str(input('Enter the name of the third student: '))
+student4 = str(input('Enter the name of the fourth student: '))
+students = [student1,student2,student3,student4]
+chosen = choice(students)
+print('The chosen student was {}'.format(chosen))

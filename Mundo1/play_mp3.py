@@ -1,8 +1,8 @@
-#Faça um programa em python que abra e reproduza o áudio de um arquivo MP3
+#Make a python program that opens and plays the audio from an MP3 file
 
 import pygame
 
-pygame.init() #Inicia o pygame
-pygame.mixer.music.load() #Inserir o nome do arquivo entre aspas simples
-pygame.mixer.music.play() #Toca a música
-pygame.time.delay(30000) #Faz o programa continuar ativo pelo tempo determinado
+pygame.init() #Starts pygame
+pygame.mixer.music.load() #Enter the file name in single quotes
+pygame.mixer.music.play() #Plays the music
+pygame.time.delay(30000) #Makes the program stay active for the specified time

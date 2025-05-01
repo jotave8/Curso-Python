@@ -1,8 +1,8 @@
-#Faça um programa que leia um número inteiro qualquer e  mostre na tela a sua tabuada
+#Make a program that reads any integer and displays its multiplication table on the screen
 
-num = int(input("Digite um número para ver sua tabuada: "))
+num = int(input("Enter a number to see its multiplication table: "))
 print('-'*12)
-print("Tabuada do {}".format(num))
+print("Multiplication table of {}".format(num))
 print("{} x 1  = {}".format(num, num*1))
 print("{} x 2  = {}".format(num, num*2))
 print("{} x 3  = {}".format(num, num*3))

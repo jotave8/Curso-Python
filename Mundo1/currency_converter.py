@@ -1,5 +1,5 @@
-#Crie um programa que leia quanto uma pessoa tem na carteira e mostra quantos dólares ela pode comprar
+#Create a program that reads how much a person has in their wallet and shows how many dollars they can buy
 
-carteira=float(input('Informe quanto reais você tem na carteira: R$'))
-dolar = carteira/5.5
-print('Com R${:.2f}, você pode comprar US${:.2f}'.format(carteira,dolar))
+wallet=float(input('Enter how many reais you have in your wallet: R$'))
+dollar = wallet/5.5
+print('With R${:.2f}, you can buy US${:.2f}'.format(wallet,dollar))

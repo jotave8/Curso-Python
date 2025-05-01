@@ -1,9 +1,9 @@
-'''Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo. Calcule e 
-mostre o comprimento da hipotenusa'''
+'''Write a program that reads the length of the opposite and adjacent legs of a right triangle. Calculate and 
+display the length of the hypotenuse'''
 from math import hypot
 
-print('Considerando um triângulo retângulo')
-co = int(input('Informe o comprimento do cateto oposto: '))
-ca = int(input('Informe o comprimento do cateto adjacente: '))
-hip = hypot(co,ca)
-print('A hipotenusa desse triângulo retângulo é {:.2f}'.format(hip))
+print('Considering a right triangle')
+os = int(input('Enter the length of the opposite side: '))
+ads = int(input('Enter the length of the adjacent side: '))
+hip = hypot(os,ads)
+print('The hypotenuse of this right triangle is {:.2f}'.format(hip))

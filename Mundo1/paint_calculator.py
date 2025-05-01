@@ -1,8 +1,8 @@
-'''Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta
-necessário para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m²'''
+'''Make a program that reads the width and height of a wall in meters, calculates its area and the amount of paint 
+needed to paint it, knowing that each liter of paint paints an area of ​​2m²'''
 
-largura = float(input('Informe a altura da parede: '))
-altura = float(input('Informe a altura da parede: '))
-area = largura*altura
-tinta = area/2
-print('A parede tem {:.2f}m², será necessário {:.1f}L de tinta'.format(area,tinta))
+width = float(input('Enter the height of the wall: '))
+height = float('Enter the height of the wall: '))
+area = width*height
+paint = area/2
+print('The wall is {:.2f}m², you will need {:.1f}L of paint'.format(area,paint))

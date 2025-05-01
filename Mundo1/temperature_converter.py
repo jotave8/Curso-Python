@@ -1,5 +1,5 @@
-#Escreva um programa que converta uma temperatura digitada em °C e converta para °F
+#Write a program that converts a temperature entered in °C and converts it to °F
 
-celsius = float(input('Informe a temperatura em Celsius: '))
+celsius = float(input('Enter the temperature in Celsius: '))
 fahrenheit = celsius*9/5+32
-print('{:.1f}°C equivale a {:.1f}°F'.format(celsius, fahrenheit))
+print('{:.1f}°C is equivalent to {:.1f}°F'.format(celsius, fahrenheit))

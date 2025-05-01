@@ -1,6 +1,6 @@
-#Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e o seu antecessor
+#Make a program that reads an integer and displays its successor and predecessor on the screen
 
-num = int(input('Digite um número inteiro: '))
-ant = num - 1
-sus = num + 1
-print('O antecessor de {} é {}\nO sucessor de {} é {}'.format(num, ant, num, sus))
+num = int(input('Enter an integer: '))
+pre = num - 1
+suc = num + 1
+print('The predecessor of {} is {}\nThe successor of {} is {}'.format(num, pre, num, suc))

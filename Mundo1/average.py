@@ -1,6 +1,6 @@
 #Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média
 
-nota1 = float(input('Informe a sua primeira nota: '))
-nota2 = float(input('Informe a sua segunda nota: '))
-media = (nota1 + nota2)/2
-print('A sua média é {:.1f}'.format(media))
+grade1 = float(input('Enter your first grade: '))
+grade2 = float(input('Enter your second grade: '))
+average = (grade1 + grade2)/2
+print('Your average is {:.1f}'.format(average))

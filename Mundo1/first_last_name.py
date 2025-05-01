@@ -1,4 +1,4 @@
-''' Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente'''
+''' Make a program that reads a person's full name, then displays the first and last name separately'''
 
 full_name = str(input('Enter your full name: ')).strip()
 name = full_name.split()

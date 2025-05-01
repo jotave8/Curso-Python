@@ -1,16 +1,16 @@
-'''O mesmo professor do desafio anterior quer sortear a ordem de apresentação de trabalho dos alunos. Faça um programa
-que leia o nome dos quatro alunos e mostre a ordem sorteada'''
+'''A teacher wants to draw lots for the order in which students will present their work. Write a program
+that reads the names of the four students and shows the order drawn'''
 
 from random import shuffle
 
-aluno1 = str(input('Informe o nome do primeiro aluno: '))
-aluno2 = str(input('Informe o nome do segundo aluno: '))
-aluno3 = str(input('Informe o nome do terceiro aluno: '))
-aluno4 = str(input('Informe o nome do quarto aluno: '))
-alunos = [aluno1,aluno2,aluno3,aluno4]
-shuffle(alunos)
-print('\nOrdem de apresentação')
-print('1°: {}'.format(alunos[0]))
-print('2°: {}'.format(alunos[1]))
-print('3°: {}'.format(alunos[2]))
-print('4°: {}'.format(alunos[3]))
+student1 = str(input('Enter the name of the first student: '))
+student2 = str(input('Enter the name of the second student: '))
+student3 = str(input('Enter the name of the third student: '))
+student4 = str(input('Enter the name of the fourth student: '))
+students = [student1,student2,student3,student4]
+shuffle(students)
+print('\nOrder of presentation')
+print('1st: {}'.format(students[0]))
+print('2nd: {}'.format(students[1]))
+print('3rd: {}'.format(students[2]))
+print('4th: {}'.format(students[3]))

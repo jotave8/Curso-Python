@@ -1,6 +1,6 @@
-#Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
+#Write a program that reads a value in meters and displays it converted to centimeters and millimeters
 
-metro = int(input('Informe o valor em metros: '))
-centi = metro*100
-mili = metro*1000
-print('{}m equivale a {}cm\n{}m equivale a {}mm'.format(metro, centi, metro, mili))
+meter = int(input('Enter the value in meters: '))
+centi = meter*100
+milli = meter*1000
+print('{}m is equivalent to {}cm\n{}m is equivalent to {}mm'.format(meter, centi, meter, milli))

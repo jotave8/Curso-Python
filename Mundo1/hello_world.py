@@ -1,4 +1,4 @@
-#Crie um programa que escreva "Olá, Mundo!" na tela.
+#Create a program that prints "Hello, World!" to the screen.
 
-msg = 'Olá, Mundo!'
-print(msg)
+text = 'Hello, World!'
+print(text)

@@ -1,12 +1,12 @@
-#Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele
+#Make a program that reads something from the keyboard and displays its primitive type and all possible information about it on the screen
 
-var = input('Digite algo: ')
-print('O tipo primitivo dessa variável é {}'.format(type(var)))
-print('É númerico? {}'.format(var.isnumeric()))
-print('É letra? {}'.format(var.isalpha()))
-print('É alfanúmerico? {}'.format(var.isalnum()))
-print('Está em maiusculo? {}'.format(var.isupper()))
-print('Está em minusculo? {}'.format(var.islower()))
-print('Está capitalizada? {}'.format(var.istitle()))
-print('Só tem "espaço"? {}'.format(var.isspace()))
-print('É printável? {}'.format(var.isprintable()))
+var = input('Type something: ')
+print('The primitive type of this variable is {}'.format(type(var)))
+print('Is it numeric? {}'.format(var.isnumeric()))
+print('Is it letter? {}'.format(var.isalpha()))
+print('Is it alphanumeric? {}'.format(var.isalnum()))
+print('Is it uppercase? {}'.format(var.isupper()))
+print('Is it lowercase? {}'.format(var.islower()))
+print('Is it capitalized? {}'.format(var.istitle()))
+print('Is it only "space"? {}'.format(var.isspace()))
+print('Is it printable? {}'.format(var.isprintable()))

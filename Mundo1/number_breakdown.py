@@ -1,8 +1,8 @@
-#Crie um programa que leia um número Real qualquer pelo teclado e mostre na tela a sua porção inteira
-#Ex.: Digite um número: 6.127   O número 6.127 tem a parte inteira 6
+#Create a program that reads any Real number from the keyboard and displays its integer portion on the screen
+#Ex.: Enter a number: 6,127 The number 6,127 has an integer portion of 6
 
 from math import floor
 
-num = float(input('Digite um número: '))
-inteiro = floor(num)
-print('A parte inteira do número {} é {}'.format(num, inteiro))
+num = float(input('Enter a number: '))
+integer = floor(num)
+print('The integer portion of the number {} is {}'.format(num, integer))
