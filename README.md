@@ -249,14 +249,14 @@ Como organizar condições dentro de outras condições:
     Evitar aninhamento excessivo (mais de 3 níveis)
     Usar operadores lógicos para simplificar:
 
-    #Em vez de:
-    if x > 0:
-        if y > 0:
-            print("Ambos positivos")
+        #Em vez de:
+        if x > 0:
+            if y > 0:
+                print("Ambos positivos")
 
-    #Use:
-    if x > 0 and y > 0:
-        print("Ambos positivos")
+        #Use:
+        if x > 0 and y > 0:
+            print("Ambos positivos")
 
 ### Fluxo Lógico Complexo
 
