@@ -246,8 +246,8 @@ Como organizar condições dentro de outras condições:
 
 ### Boas Práticas
     
-    Evitar aninhamento excessivo (mais de 3 níveis)
-    Usar operadores lógicos para simplificar:
+Evitar aninhamento excessivo (mais de 3 níveis)
+Usar operadores lógicos para simplificar:
 
         #Em vez de:
         if x > 0:
