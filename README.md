@@ -212,3 +212,61 @@ Você pode colocar um if dentro de outro:
             print("e par!")
     else:
         print("Negativo ou zero")
+
+## 📌 Condições em Python (Parte 2)
+
+### Estrutura if/elif/else
+
+Para verificar múltiplas condições de forma hierárquica:
+
+    nota = 8.5
+    if nota >= 9:
+        print("Conceito A")
+    elif nota >= 7:
+        print("Conceito B")  # Executa se nota >=7 e <9
+    elif nota >= 5:
+        print("Conceito C")
+    else:
+        print("Reprovado")
+
+### Aninhamento Profundo
+
+Como organizar condições dentro de outras condições:
+
+    idade = 17
+    tem_autorizacao = True
+
+    if idade < 18:
+        if tem_autorizacao:
+            print("Acesso permitido com autorização")
+        else:
+            print("Acesso negado: necessária autorização")
+    else:
+        print("Acesso liberado")
+
+### Boas Práticas
+    
+    Evitar aninhamento excessivo (mais de 3 níveis)
+    Usar operadores lógicos para simplificar:
+
+    #Em vez de:
+    if x > 0:
+        if y > 0:
+            print("Ambos positivos")
+
+    #Use:
+    if x > 0 and y > 0:
+        print("Ambos positivos")
+
+### Fluxo Lógico Complexo
+
+    numero = 15
+    if numero % 3 == 0:
+        if numero % 5 == 0:
+            print("Divisível por 3 e 5")
+        else:
+            print("Divisível apenas por 3")
+    elif numero % 5 == 0:
+        print("Divisível apenas por 5")
+    else:
+        print("Não divisível por 3 ou 5")
