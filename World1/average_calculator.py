@@ -10,7 +10,7 @@ average = (grade1 + grade2)/2
 
 if average < 5.0:
     print(f'\nAverage bellow 5.0: FAIL \nYour average: {average:.1f}')
-elif average >= 5.0 and average <= 6.9:
+elif 7 > average >= 5.0:
     print(f'\nAverage between 5.0 and 6.9: RECOVERY \nYour average: {average:.1f}')
 else: 
     print(f'\nAverage 7.0 or higher: PASSED \nYour average: {average:.1f}')
